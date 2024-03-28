@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(145deg, #f80000, #78c2ff);
+    /* Pinkish (#ff6ec4) to blue (#7873f5) gradient */
+    
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+}

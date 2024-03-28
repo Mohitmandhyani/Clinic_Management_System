@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    background: transparent;
+    height: 80px;
+
+
+    .text {
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        font-size: 3.4rem;
+        padding-top: 3rem;
+        padding-left: 1rem;
+    }
+}

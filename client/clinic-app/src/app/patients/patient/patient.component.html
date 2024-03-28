@@ -1,0 +1,20 @@
+<div class="container">
+
+    <div class="id">{{index+1}}</div>
+    <div class="full-name">
+        {{patient?.fullName}}
+    </div>
+    <div class="city">{{patient.city}}</div>
+    <div class="date-of-birth">{{patient.dateOfBirth | date:'yyyy-MM-dd'}}</div>
+    <div class="Phone Number">{{patient.pesel}}</div>
+
+    <div class="buttons">
+        <a [routerLink]="['/patients',patient._id]">
+            <div class="show-patient" *ngIf="patient.sex==='M' "><img src="./../../../assets/patient-male.png" alt="">
+            </div>
+            <div class="show-patient" *ngIf="patient.sex==='F' "><img src="./../../../assets/patient-female.png" alt="">
+            </div>
+
+        </a>
+    </div>
+</div>

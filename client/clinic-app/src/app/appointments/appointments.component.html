@@ -1,0 +1,22 @@
+<div class="container">
+    <div *ngIf="isLoading">
+        <mat-spinner></mat-spinner>
+    </div>
+
+    <div class="appointments">
+        <app-add-appointment-button></app-add-appointment-button>
+        <app-appointment-from-appointments *ngFor="let appointment of appointments, let i = index"
+            [appointment]="appointment" [index]="getIndex(i)"></app-appointment-from-appointments>
+
+    </div>
+
+    <div class="pagination">
+        <div class="info"> {{appointmentsCount}} of {{appointmentsFullCount}}</div>
+        <div class="buttons">
+            <div class="previous" (click)="previousPage()"> <img src="./../../assets/arrow-left.png"
+                    alt="previous page"> </div>
+            <div class="page">{{pageNumber}}</div>
+            <div class="next" (click)="nextPage()"> <img src="./../../assets/arrow-right.png" alt="next page"> </div>
+        </div>
+    </div>
+</div>
