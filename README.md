@@ -1,6 +1,6 @@
 # Clinic Management App 🏥
 
-This Angular application serves as a Clinic Management System, facilitating CRUD (Create, Read, Update, Delete) operations using AngularJS and MongoDB.
+This Angular application serves as a Clinic Management System, facilitating CRUD (Create, Read, Update, Delete) operations using Angular and MongoDB.
 
 ## Features:
 
@@ -36,6 +36,7 @@ This Angular application serves as a Clinic Management System, facilitating CRUD
    npm install , npm run start
 4. Set up MongoDB database and configure the connection.
 5. Run the application locally.
+6. For frontend the server will connect on (http://localhost:4200)
 
 ## Usage:
 - Navigate through different sections for managing patients, doctors, and appointments.
@@ -44,6 +45,6 @@ This Angular application serves as a Clinic Management System, facilitating CRUD
 
 ## Contributors:
 - By Mohit Mandhyani
-- Contributors: Yajat bhasin, Divit Wadhwani, Lavin Valechha
+- Contributors: Yajat Bhasin, Divit Wadhwani, Lavin Valechha
 
 
